@@ -8,6 +8,9 @@ server.bind((SERVER, PORT))
 
 while True:
   clientSocket, address = server.accept()
-  print(f'Server Connection Established :D: {address}')
+  if SERVER in address:
+    print('Host Connection Established :D')
+   else:
+    print(f'Anonymous Connection detected: {address}')
   clientSocket.close()
   
