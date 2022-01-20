@@ -3,7 +3,7 @@ This is a code for a simple program for a Server/Client Server.
 
 # Tutorial
 First of all, you must run it on a Python IDE, like Pycharm, there are many others.
-Next, make two files, one, a Server, two, an a Client.
+Next, make two files, one, a Server, two, a Client.
 Then run the code.
 
 
